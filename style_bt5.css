@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: xx-large;
+}
+
+.h1 p {
+    color: rgb(26, 22, 22);
+    background-color: rgb(153, 227, 227);
+    width: 350px;
+}
+.h1 p:hover{
+    color: rgb(206, 45, 24);
+    margin-left: 30px;
+}
