@@ -1,0 +1,18 @@
+
+  .spiner {
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 10px solid rgb(97, 100, 99);
+    border-radius: 50%;
+    border-top: 10px solid #fafafa;
+    animation: spiner 1.5s linear infinite;
+  }
+  @keyframes spiner {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+   
