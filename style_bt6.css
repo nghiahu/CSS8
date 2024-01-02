@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h1{
+    margin:10px ;
+}
+.h1 ul{
+    width:100px;
+    background-color: blue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    transform:translateX(-95px);
+    transition: all 1s;
+}
+.h1 ul:hover{
+    width: 100px;
+    background-color: blue;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+   transform: translateX(0px);
+}
